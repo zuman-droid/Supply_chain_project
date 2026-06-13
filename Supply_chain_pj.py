@@ -22,7 +22,7 @@ neutral_color = viridis_color[4]
 custom_palette = viridis_color
 
 # Load the dataset
-df = pd.read_csv("DataCoSupplyChainDataset (3).csv", encoding="latin1")
+df = pd.read_csv("Supply_chain_project/DataCoSupplyChainDataset (3).csv", encoding="latin1")
 df.columns = df.columns.str.lower().str.replace(' ','_')
 
 # print(df.columns.to_list())
